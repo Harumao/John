@@ -4,7 +4,7 @@ export default function Nav() {
     <>
       <div>
         {/* <div className="bg-gray-50 text-gray-800 min-h-screen flex flex-col"> */}
-        <header className="py-5 bg-gradient-to-r from-slate-400 to-black-300 text-white">
+        <header className="py-5 bg-gradient-to-r from-slate-700 to-black-300 text-white">
           <div className="container mx-auto flex justify-between">
             <h1 className="text-3xl font-bold font-roman ml-20">
               My Portfolio

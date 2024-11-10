@@ -3,7 +3,7 @@ export default function Page() {
     <>
       <section
         id="home"
-        className="text-center py-10 bg-gradient-to-r from-slate-700 to-slate-300"
+        className="text-center py-10 bg-gradient-to-r from-slate-700 to-slate-400"
       >
         <h2 className="text-4xl font-roman text-indigo-100">
           Welcome to My Depressive World
@@ -18,8 +18,9 @@ export default function Page() {
         <div className="w-1/2">
           <h3 className="text-3xl font-roman">About Me</h3>
           <p className="mt-4 font-art text-lg">
-            I&apos;m an artist and developer inspired by ancient Roman
-            architecture and modern abstract forms.
+            I&apos;m a Jeremy the Warrior of the Pantheon.
+            <br /><br /><br />[Looking for resume? Go to About page.<br />
+            It&apos;s on the right top of screen.] 
           </p>
         </div>
       </section>
@@ -33,12 +34,14 @@ export default function Page() {
           <p className="mt-4 font-abstract">
             Feel free to reach out for collaborations or commissions. Let&apos;s
             create something timeless together.
+            
           </p>
           <a
             href="mailto:kingkinghi4@gmail.com"
             className="inline-block mt-6 py-3 px-6 bg-slate-500 text-white font-bold rounded hover:bg-slate-700"
           >
-            Do not Contact Me
+            Do not Contact Me.
+            tod ta nodd
           </a>
         </div>
       </section>
