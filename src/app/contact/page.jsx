@@ -3,7 +3,7 @@ export default function Page() {
     <>
       <section
         id="home"
-        className="text-center py-10 bg-gradient-to-r from-slate-700 to-slate-300"
+        className="text-center py-10 bg-rose-300 border-8"
       >
         <h2 className="text-4xl font-roman text-indigo-100">Contact</h2>
         <p className="mt-4 font-abstract text-lg">to Who?</p>
@@ -15,13 +15,13 @@ export default function Page() {
         className="py-10 bg-white text-gray-800 flex justify-center"
       >
         <div className="w-1/2">
-          <h3 className="text-3xl font-roman">No one :</h3>
+          <h3 className="text-3xl font-roman">Me :</h3>
           <p className="mt-4 font-art text-lg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ullam eligendi odio doloribus animi nesciunt sed, et exercitationem quis vel non reiciendis quaerat repellat esse similique praesentium commodi atque architecto.
+            
           </p>
           <a
-            href="mailto:kingkinghi4@gmail.com"
-            className="inline-block mt-6 py-3 px-6 bg-slate-500 text-white font-bold rounded hover:bg-slate-700"
+            href="https://www.facebook.com/Mir4Cle.S/"
+            className="inline-block mt-6 py-3 px-6 bg-blue-500 text-white font-bold rounded hover:bg-blue-700"
           >
             อะไร
           </a>
