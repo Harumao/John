@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export default function Page() {
   return (
     <>
@@ -23,8 +24,6 @@ export default function Page() {
             alt="profile" 
             width={100}
             />
-
-
             <br />
             Name : Sittichocke Niyomtusn <br />
             Studying in KMUTNB.<br />
