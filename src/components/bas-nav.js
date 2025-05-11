@@ -23,6 +23,8 @@ export default function BNav() {
   const [isSelected, setIsSelected] = useState(false);
   const { theme, setTheme } = useTheme();
 
+  
+
   const St = () => {
     // setIsSelected(!isSelected);
     if (isSelected) {
@@ -32,6 +34,7 @@ export default function BNav() {
     }
     console.log(theme);
   };
+  
 
   useEffect(() => {
     const getPokemon = async () => {
@@ -92,7 +95,11 @@ export default function BNav() {
             Gityanki
           </Button>
         </NavbarItem>
-        <Switch color="default" isSelected={isSelected} onValueChange={()=>{setIsSelected(!isSelected);St();}} startContent={<Icon icon = "pixelarticons:moon-star"/>} endContent={<Icon icon = "noto-v1:smiling-face-with-sunglasses" />} />
+        <Switch color="default" isSelected={()=>{isSelected;St();}} 
+        onValueChange={()=>{setIsSelected(!isSelected);St();}} 
+        startContent={<Icon icon = "pixelarticons:moon-star"/>} 
+        endContent={<Icon icon = "noto-v1:smiling-face-with-sunglasses" />} 
+        />
       </NavbarContent>
     </Navbar>
   );
